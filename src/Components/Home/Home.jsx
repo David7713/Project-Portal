@@ -51,7 +51,7 @@ useEffect(()=>{
        <div className='counterUpSection'>
        <li className='counterUpIcon'><FaUserCheck></FaUserCheck></li>
      
-       <CountUp className='counterUp' end={1000}  duration={10} />
+       <CountUp className='counterUp' end={999}  duration={10} />
        <p className='counterUpText'>Customer</p>
        </div>
        <div className='counterUpSection'>
