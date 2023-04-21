@@ -1,0 +1,159 @@
+//MAIN COLORS//
+
+:root{
+    --PrimaryColor:hsl(199,100%,33%);
+    --SecondaryColor:hsl(187,85%,43%);
+    --gradientColor: linear-gradient(90deg, rgba(172,217,255,1) 23%, rgba(172,186,255,1) 37%);
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor:hsl(201,33%,16%);
+    --textColor:hsl(240,4%,36%);
+    --whiteColorDeam:hsl(0,0%,93%);
+    --grayText:rgb(190,190,190);
+    --inputColor:rgb(239,239,239);
+    --bodyColor:rgb(240,240,246);
+    --cardBG:rgb(225,225,235);
+  
+    }
+.home{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    .overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgb(47, 106, 127);
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        mix-blend-mode:hard-light;
+    }
+
+    video{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0;
+        bottom: 0;
+        object-fit: cover;
+        
+    }
+    .homeContent{
+        width: 100%;
+        height: max-content;
+        padding: 8rem 1.5rem 3rem;
+        display: flex;
+        row-gap: 3rem;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        margin: auto;
+        color:var(--whiteColor);
+        z-index: 100;
+
+    }
+    .textDiv{
+        padding: 2rem 0;
+
+        .smallText{
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        .homeTitle{
+            position: relative;
+            font-size: 1.8rem;
+        }
+    }
+
+}
+
+.cardDiv{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 10px;
+    text-align: center;
+    z-index: -100;
+    
+ 
+    
+    
+   .counterUp{
+    font-size: 40px;
+    
+
+   }
+   
+}
+.counterUpSection{
+    width: 100px;
+    height: fit-content;
+    border: 1px solid rgb(240,231,231);
+    border-radius: 3px;
+    color:white;
+    z-index: -100;
+    display: flex;
+    margin-right: 10px;
+    flex-direction: column;
+    backdrop-filter: blur(5px) ;
+    -webkit-backdrop-filter: blur(5px);
+    column-gap: 10px;
+   .counterUpText{
+    font-size: 15px;
+   }
+   .counterUp{
+    border-top: 1px solid var(--whiteColor);
+    border-bottom: 1px solid var(--whiteColor);
+   }
+}
+.counterUpSection :hover{
+    transition: 1s ease-in-out;
+    background-color: var(--whiteColor);
+    color:var(--PrimaryColor)
+    
+}
+.counterUpIcon{
+    font-size: 20px;
+}
+
+.homeFooterIcons{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    
+    a{
+        color:white;
+    }
+
+}
+
+
+
+
+//MEDIA QUERIES ===========================>
+
+
+
+@media screen and (min-width:500px){
+    .home{
+        .homeContent{
+            .textDiv{
+                .smallText{
+                    font-size: 16px;
+                }
+                .homeTitle{
+                   position: relative;
+                    font-size: 2.3rem;
+                    width: max-content;
+                }
+            }
+        }
+    }
+}
