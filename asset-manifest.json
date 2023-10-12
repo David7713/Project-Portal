@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Project-Portal/static/css/main.4f34a5e0.css",
-    "main.js": "/Project-Portal/static/js/main.b925b023.js",
+    "main.css": "/Project-Portal/static/css/main.886b3db5.css",
+    "main.js": "/Project-Portal/static/js/main.00deb305.js",
     "static/media/video.mp4": "/Project-Portal/static/media/video.cbf0d02f24d5afc5c6f1.mp4",
     "static/media/img7.jpg": "/Project-Portal/static/media/img7.bc8f457f5e4b55c7bc88.jpg",
     "static/media/img4.jpg": "/Project-Portal/static/media/img4.64b5c567208632a9e8e8.jpg",
@@ -19,11 +19,11 @@
     "static/media/img.jpg": "/Project-Portal/static/media/img.3b21fee784b1c13beab3.jpg",
     "static/media/img14.jpg": "/Project-Portal/static/media/img14.cc65a186e4fe559b37d8.jpg",
     "index.html": "/Project-Portal/index.html",
-    "main.4f34a5e0.css.map": "/Project-Portal/static/css/main.4f34a5e0.css.map",
-    "main.b925b023.js.map": "/Project-Portal/static/js/main.b925b023.js.map"
+    "main.886b3db5.css.map": "/Project-Portal/static/css/main.886b3db5.css.map",
+    "main.00deb305.js.map": "/Project-Portal/static/js/main.00deb305.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f34a5e0.css",
-    "static/js/main.b925b023.js"
+    "static/css/main.886b3db5.css",
+    "static/js/main.00deb305.js"
   ]
 }
