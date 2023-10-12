@@ -41,32 +41,7 @@ useEffect(()=>{
         <h1 className='homeTitle' data-aos="fade-up">Discover new horizons with portal.
         </h1>
       </div>
-      <div className='cardDiv'  data-aos="fade-up">
-       <div className='counterUpSection'>
-            <li className='counterUpIcon'><RiShoppingBag3Fill></RiShoppingBag3Fill></li>
-        
-          <CountUp className='counterUp' end={15} duration={10} />
-          <p className='counterUpText'>Packages</p>
-       </div>
-       <div className='counterUpSection'>
-       <li className='counterUpIcon'><FaUserCheck></FaUserCheck></li>
-     
-       <CountUp className='counterUp' end={999}  duration={10} />
-       <p className='counterUpText'>Customer</p>
-       </div>
-       <div className='counterUpSection'>
-       <li className='counterUpIcon'><AiFillExperiment></AiFillExperiment></li>
-       
-       <CountUp className='counterUp' end={5} duration={10} />
-          <p className='counterUpText'>Experience</p>
-       </div>
-       <div className='counterUpSection'>
-       <li className='counterUpIcon'><GiEarthAmerica></GiEarthAmerica></li>
-       <CountUp className='counterUp' end={8} duration={10} />
-          <p className='counterUpText'>Countries</p>
-       </div>
-      
-      </div>
+    
       <div className="homeFooterIcons"  data-aos="fade-up">
         <a href='#'><FiFacebook></FiFacebook></a>
         <a href='#'> <AiOutlineInstagram></AiOutlineInstagram></a>
