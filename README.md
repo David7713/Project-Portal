@@ -1,70 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portal Tourism and travel booking website. 
 
-## Available Scripts
+Portal is a user-friendly tourism website designed to help travelers discover exciting tour packages and effortlessly book their dream vacations. With a sleek and intuitive front-end built using React, Portal provides a seamless browsing experience for users seeking memorable travel adventures.
 
-In the project directory, you can run:
 
-### `npm start`
+## Front End
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white)
 
-### `npm run build`
+![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install my-project with npm
 
-### `npm run eject`
+```bash
+  git clone https://github.com/David7713/Project-Portal.git
+  cd project-portal
+  npm install
+  npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+    
+## Colors Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Color         | Hex                                                                |
+| ------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/006699?text=+) `#006699` |
+| Example Color | ![#808080](https://via.placeholder.com/10/10b5cb.?text=+) `#10b5cb.` |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/58585f?text=+) `#58585f` |
+| Example Color | ![#FF0000](https://via.placeholder.com/10/bebebe?text=+) `#bebebe` |
+| Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
+   ## Home
+![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Home.png?raw=true)
 
-## Learn More
+   ## Packages
+![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Packages.png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ## Footer
+![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Footer.png?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Feedback and Questions
+Thank you for taking the time to explore Portal, your gateway to unforgettable travel experiences! We appreciate your interest in our platform. If you have any questions, feedback, or suggestions, feel free to reach out to us. Your support means the world to us, and we look forward to assisting you on your travel adventures. 
 
-### Making a Progressive Web App
+📧 Email: davo00771339@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We appreciate your interest and look forward to hearing from you! Have a great day!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
