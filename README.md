@@ -3,6 +3,9 @@
 
 Portal is a user-friendly tourism website designed to help travelers discover exciting tour packages and effortlessly book their dream vacations. With a sleek and intuitive front-end built using React, Portal provides a seamless browsing experience for users seeking memorable travel adventures.
 
+  ## Portal Main
+![App Screenshot](https://github.com/David7713/Project-Portal/blob/main/src/Screenshots/Main.png?raw=true)
+
 
 ## Front End
 
